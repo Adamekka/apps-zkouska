@@ -111,3 +111,23 @@ U těchto architektur to není možné, tyhle architektury nemůžou provádět 
 === Jak je v počítači organizovaná paměť?
 
 Paměť v počítači je organizovaná do buněk o stejné velikosti, většinou 1 byte, procesor má IP reg, který ukazuje na instrukci která se má vykonat. Paměť může být rozdělena na část pro kód a data, např: Harvardská.
+
+= Jazyk symbolických instrukcí, strojové instrukce, Assembler
+
+== Registry
+
+Registry jsou paměťové jednotky v procesoru, které uchovávají dočasné data a instrukce během operací.
+
+Procesor je používá pro rychlou manipulaci s daty a instrukcemi.
+
+RIP - instruction pointer.
+
+FLAGS - state register (ZF, CF, OF, SF).
+
+== Adresování
+
+Adresování se dělí na přímé a nepřímé. Přímé používá pevnou adresu. Nepřímé používá adresu v registru.
+
+V 64bit se adresuje pomocí:
+
+[ Bázový + Indexový \* Měřítko + konstanta]
